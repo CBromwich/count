@@ -1,5 +1,4 @@
 import requests
-from unidecode import unidecode
 import ast
 
 TOKEN_URL = "https://disneyworld.disney.go.com/authentication/get-client-token/"
