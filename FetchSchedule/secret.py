@@ -1,1 +1,0 @@
-url =  "https://scheduleview.disney.com/php/scheduleDataLive.php?pernr=00973197"
