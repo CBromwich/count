@@ -1,7 +1,8 @@
 import requests
 import datetime
+import secret
 
-URL_ROOT = "https://scheduleview.disney.com/php/scheduleDataLive.php?pernr=00973197"
+URL_ROOT = secret.url
 URL_START = "&start=" + datetime.date.today().strftime("%m/%d/%Y") #ensure the start time is always today
 URL_END = "&end=" + (datetime.date.today() + datetime.timedelta(days=14)).strftime("%m/%d/%Y") #set start time to 14 days from today
 
